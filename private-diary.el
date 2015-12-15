@@ -43,6 +43,7 @@
   :group 'private-diary
   :type '(file))
 
+;;;###autoload
 (defun private-diary-swap-with-diary nil
   "Swaps the values of the diary-file and private-diary-file."
   (interactive nil)
