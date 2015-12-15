@@ -34,12 +34,11 @@ sign. You can upload it to a public key-server, if you like.
 Setting up the private-diary file is a matter of preference, but I
 create a text file with this header:
 
-     -*- mode: diary; epa-file-encrypt-to: ("youremail@replaceme.com");
-        -*-
+     -*- mode: diary; epa-file-encrypt-to: ("youremail@replaceme.com"); -*-
 
 This line tells Emacs to activate the diary-mode when opening the file
 and to encrypt the file with the private key at
-"youremail@replaceme.com", which should---of course---be the actual
+"youremail@replaceme.com", which should&mdash;of course&mdash;be the actual
 email associated with your private key above.
 
 ## Setting the private-diary-file Variable
