@@ -34,7 +34,7 @@
 (defgroup private-diary nil
   "Variables for the private-diary package."
   :prefix "private-diary"
-  :group 'tools
+  :group 'files
   :link '(url-link :tag "Github" "https://github.com/cacology/private-diary")
   )
 
