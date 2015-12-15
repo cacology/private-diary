@@ -43,7 +43,7 @@
   :group 'private-diary
   :type '(file))
 
-(defun swap-diary-and-private-diary nil
+(defun private-diary-swap-with-diary nil
   "Swaps the values of the diary-file and private-diary-file."
   (interactive nil)
   (let ((old-diary-file diary-file))
