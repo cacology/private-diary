@@ -1,4 +1,5 @@
-# private-diary
+# private-diary [![MELPA](http://melpa.org/packages/private-diary-badge.svg)](http://melpa.org/#/private-diary)
+
 
 A simple package for maintaining an encrypted private
 diary along with a non-encrypted one in Emacs
