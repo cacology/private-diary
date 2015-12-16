@@ -5,7 +5,7 @@
 ;; Author: James P. Ascher <jpa4q@virginia.edu>
 ;; Keywords: diary, encryption
 ;; URL: https://github.com/cacology/private-diary
-;; Version: 1.0
+;; Version: 1.01
 ;; Package-Requires: ((emacs "24.0") (epg))
 
 ;; This program is free software; you can redistribute it and/or modify
@@ -24,7 +24,7 @@
 ;;; Commentary:
 ;; This package supports a private diary file that functions like the
 ;; existing Emacs diary, but can be encrypted while leaving the
-;; non-private diary in plain text. Documentation on
+;; non-private diary in plain text.  Documentation on
 ;; https://github.com/cacology/private-diary
 
 ;;; Code:
@@ -44,7 +44,7 @@
   :type '(file))
 
 (defun private-diary-swap-with-diary nil
-  "Swaps the values of the diary-file and private-diary-file."
+  "Swaps the values of the `diary-file' and `private-diary-file'."
   (interactive nil)
   (let ((old-diary-file diary-file))
     (setq diary-file private-diary-file)
