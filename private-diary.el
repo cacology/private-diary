@@ -5,8 +5,9 @@
 ;; Author: James P. Ascher <jpa4q@virginia.edu>
 ;; Keywords: diary, encryption
 ;; URL: https://github.com/cacology/private-diary
-;; Version: 1.01
-;; Package-Requires: ((emacs "24.0") (epg))
+
+;; Version: 1.0
+;; Package-Requires: ((emacs "24.0"))
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -43,6 +44,7 @@
   :group 'private-diary
   :type '(file))
 
+;;;###autoload
 (defun private-diary-swap-with-diary nil
   "Swaps the values of the `diary-file' and `private-diary-file'."
   (interactive nil)
