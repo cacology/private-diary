@@ -1,13 +1,13 @@
 # private-diary
 
-A simple module for maintaining an encrypted private
-diary along with a non-encrypted on in Emacs
+A simple package for maintaining an encrypted private
+diary along with a non-encrypted one in Emacs
 
 ## Installation
 
 For this to work, you need GNU Emacs with the builtin EasyPG, along
 with the GNU Privacy Guard package. Installing GPG is out of the scope of this
-module, but it's very easy: <https://gnupg.org> .
+package, but it's very easy: <https://gnupg.org> .
 
 Once you have GNU Privacy Guard installed, you merely need to move the
 private-diary.el into a directory that Emacs parses when loading the
