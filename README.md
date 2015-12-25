@@ -1,4 +1,4 @@
-# private-diary [![MELPA](http://melpa.org/packages/private-diary-badge.svg)](http://melpa.org/#/private-diary) [![Build Status](https://secure.travis-ci.org/cacology/private-diary.png?branch=master,staging,production)](http://travis-ci.org/cacology/private-diary)
+# private-diary [![MELPA](http://melpa.org/packages/private-diary-badge.svg)](http://melpa.org/#/private-diary) [![Build Status](https://travis-ci.org/cacology/private-diary.svg?branch=master)](https://travis-ci.org/cacology/private-diary)
 
 
 A simple package for maintaining an encrypted private
